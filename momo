@@ -81,6 +81,9 @@ console.log(getNum(3));
 /* 第三题 end */   
 
 /* 第四题 start */
+//实现一个函数findLUSLenght，返回两个字符串最长非公共连续子串长度
+//输入：‘aba’，‘cdc’ 输出：3
+//备注：最长非公共连续子串是‘aba’(或‘cdc’)
 console.log('********** 第四题 ***********')
 var str1 = 'aabaddffttdeeeee';
 var str2 = 'acdcddeettdfffff';
@@ -131,7 +134,6 @@ var findLUSLength=function(a,b){
         return b.length-a.length;
     })
 
-
     return resultArr[0].length;
 }
 
@@ -143,4 +145,10 @@ console.log(num2);
 
 var num3 = findLUSLength(str5,str6);
 console.log(num3);
-</script>   
+/* 第四题 end */
+
+/* 第五题 start */
+//css模拟switch组建：未选中状态，选中状态，应该再加上动画
+/* 第五题 end */
+
+</script>  
