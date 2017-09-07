@@ -130,7 +130,6 @@ var findLUSLength=function(a,b){
         return b.length-a.length;
     })
 
-    console.log(resultArr[0]);
 
     return resultArr[0].length;
 }
