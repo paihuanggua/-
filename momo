@@ -46,7 +46,7 @@ var c = fn3.init;
 console.log(c());
 
 console.log('********** 第二题(2) ***********')
-
+//异步，与下面题的分开。
 setTimeout(function(){
     console.log(1)
 },0)
