@@ -20,9 +20,9 @@ var b = new A();
 console.log(b.constructor === A);
 console.log(B.prototype.constructor === A);
 console.log(b.constructor.prototype.constructor === A);
-console.log(b.hasOwnProperty('constructor'));
+console.log(b.hasOwnProperty('constructor'));//做错了 注意题目 再等我2分钟
 console.log(b instanceof A);
-console.log(b instanceof B);//做错了 我的是->false  答案->true
+console.log(b instanceof B);//做错了 注意题目 再等我2分钟 我的是->false  答案->true
 /* 第一题 end */
 
 
